@@ -1,0 +1,9 @@
+tf.contrib 在1.15版本就删除了，现在可在tensorflow-addons中找到这些包
+pip install tensorflow-addons
+详见https://github.com/tensorflow/addons/tree/master/tensorflow_addons
+
+但是还是找不到layers.layer_norm,最后找到新版本替代方法
+https://www.pythonheidong.com/blog/article/360510/a2c96a95e5862454d6b0/
+
+tensorflow中contrib模块问题。（tf.contrib）
+https://blog.csdn.net/lzzry1314/article/details/107123166?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
